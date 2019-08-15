@@ -1,0 +1,97 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{邹祥}
+
+\basicInfo{
+  \email{1145840118@qq.com} \textperiodcentered\ 
+  \phone{(+86) 156-5655-5691} \textperiodcentered\ 
+  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{安徽大学}, 安徽}{2013 -- 2017}
+\textit{学士}\ 计算机科学与技术
+
+\section{\faUsers\ 工作/项目经历}
+\datedsubsection{\textbf{科大讯飞股份有限公司} 合肥}
+\role{中级大数据工程师}{职级职等: P3-2}{2018.11.30 ~ 2019.01.04}
+\role{初级大数据工程师}{职级职等: P2-3}{2017.10.07 ~ 2018.11.30}
+\role{初级大数据工程师}{职级职等: P2-3}{2016.07.26 ~ 2017.10.07}
+|2018.11.30 ~ 2019.01.04|消费者消费品业务群研发部大数据部|中级大数据工程师|大数据序列|P3-2|
+|2017.10.07 ~ 2018.11.30|消费者消费品业务群研发部大数据部|初级大数据工程师|大数据序列|P2-3|
+|2016.07.26 ~ 2017.10.07|消费者消费品业务群应用研发部|大数据工程师|大数据序列|未定级|
+\datedsubsection{\textbf{科大讯飞股份有限公司} 合肥}{2016年7月 -- 至今}
+\role{中级大数据工程师}{经理: 高富帅}
+xxx后端开发
+\begin{itemize}
+  \item 实现了 xxx 特性
+  \item 后台资源占用率减少8\%
+  \item xxx
+\end{itemize}
+
+\datedsubsection{\textbf{分布式科学上网姿势}}
+\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+\begin{onehalfspacing}
+分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+\begin{itemize}
+  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
+  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
+  \item xxx (尽量使用量化的客观结果)
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{自动化邮件报表项目}}
+\role{\LaTeX, Python}{个人项目}
+\begin{onehalfspacing}
+优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+\begin{itemize}
+  \item 容易定制和扩展
+  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
+  \item 支持 FontAwesome 4.5.0
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: C == Python > C++ > Java
+  \item 平台: Linux
+  \item 开发: xxx
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
+\datedline{其他奖项}{2015}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 技术博客: http://blog.yours.me
+  \item GitHub: https://github.com/username
+  \item 语言: 英语 - 熟练(TOEFL xxx)
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
